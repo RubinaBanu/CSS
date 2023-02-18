@@ -1,0 +1,52 @@
+
+<!-- list-style-type-position-images-->
+
+<html>
+<head>
+<style>
+ul li {
+  list-style: square inside url("/home/rubinabanu/Documents/HTML5/birdfly.gif");
+/*we can also give like this too ---> list-style-type:square ;list-style-position:inside;list-style-images:url*/
+visibility:hidden;
+/*you can comment the visibility and see the the gif unordered list */
+}
+ol li {
+  list-style: lower-roman outside ;
+/* here we are not giving url as list-style-image.it is additional only*/
+}
+
+h2.a {
+  visibility: visible;
+}
+
+h2.b {
+  visibility: hidden;
+}
+</style>
+</head>
+<body>
+
+<h1>The list-style Property</h1>
+
+<p>The list-style is a shorthand property for all the list properties.</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+<ol>
+  <li>Pen</li>
+  <li>Pencil</li>
+  <li>Eraser</li>
+</ol>
+<h1>The visibility Property</h1>
+
+<h2 class="a">This heading is visible</h2>
+
+<h2 class="b">This heading is hidden</h2>
+
+<p>Notice that the hidden heading still takes up space on the page.</p>
+
+</body>
+</html>

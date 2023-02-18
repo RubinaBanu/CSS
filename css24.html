@@ -1,0 +1,90 @@
+ <html>
+<head>
+<style>
+.myDiv {
+  border: 5px solid red;
+  background-color: lightblue;
+  text-align: center;
+}
+.abc
+{width:50%;height:40%;
+border: 2px outset orange;
+  background-color: lightgreen;
+  text-align: left;
+padding:20px;
+
+
+}
+
+.c
+{border: 2px outset navy;
+  background-color: coral;
+  text-align: right;
+padding:20px;
+margin:25px;
+}
+
+body{
+background-color : pink;
+background-image: url("../rubina.jpeg");
+/*either we can give background color or background image*/
+background-repeat : repeat-x;
+/* background repeat: repeat-x means x axis and repeat-y means y axis*/
+background-repeat : repeat-y;
+background-repeat : no-repeat;
+/*no-repeat makes to display images only one time since bg image url shows our single image in multiple times as tiles format*/
+background-position : right bottom;
+/*position can be fix at top,bottom,right,left etc*/
+}
+
+div.static
+{
+ position :static;
+border: 3px solid green;
+/*this places the div content in static manner without moving.the postion is constant.cant able to change it.*/
+}
+div.fixed
+{
+position : fixed;
+bottom:300;
+right:0;
+width:200px;
+border: 3px solid green;
+/*here this fixed div content is placed fixed in webpage. when we scroll the webpage, the content is not moving it placed fixed*/
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 200px;
+  height: 300px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  <h2>This is a heading in a divmyDiv element</h2>
+  <p>This is some text in a divmyDiv element.</p>
+</div>
+<br>
+<div class="abc">
+  <h2>This is a heading in a divabc element</h2>
+  <p>This is some text in a divabc element.</p>
+</div>
+<br>
+<div class="c">
+  <h3>This is a heading in a divc element</h3>
+  <p>This is some text in a divc element.</p>
+</div>
+<div class="static">
+<p>First published in 1869, Nature is the world's leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives</p>
+</div>
+<div class="fixed">
+<p>COFFEE is the world's leading multidisciplinary science journal. Nature publishes the finest peer-reviewed research that drives</p>
+</div>
+<div class="absolute">
+<p>A welcome speech is given by the show's host at the beginning of an event to show their gratitude towards the guest for making an effort to attend the event. A welcome speech has to be such that everyone present there feels that their presence has made it more happening.</p></div>
+</body>
+</html> 
