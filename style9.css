@@ -1,0 +1,19 @@
+.container
+{
+column-width : 250px;
+column-gap:20px;
+}
+.content1
+{
+background-color : rgb(207,232,220);
+border :2px solid rgb(79,185,227);
+padding : 10px;
+margin : 0 0 1em 0;
+}
+.content3
+{
+background-color : lightgreen;
+border :2px solid gold;
+padding : 10px;
+margin : 0 0 1em 0;
+}

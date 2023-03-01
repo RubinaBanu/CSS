@@ -1,0 +1,11 @@
+h1 {
+  font-family: "Times New Roman"; font-variant :normal ; font-size : 10em ;font-style : oblique; font-weight :bold;
+}
+
+p.datee {
+  font-family: Arial; font-variant : normal ; font-size :20px ;font-style : normal ; font-weight : normal;
+}
+
+p.abc {
+   font-family: sans-serif; font-variant: small-caps ; font-size :30 ;font-style : italic ; font-weight :bold;
+}

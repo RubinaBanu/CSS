@@ -1,0 +1,12 @@
+/* text transfrom,indent,color,align,decoration-css14,15,16,17,18.html */
+h1 {
+  text-align: center; text-indent :50px ; color:green ;text-transform: capitalize; text-decoration-line:overline;
+}
+
+p.datee {
+  text-align: right; text-indent :41cm ; color:rgb(255,00,00)  ;text-transform: uppercase; text-decoration-style:double;
+}
+
+p.abc {
+  text-align: justify ; text-indent : 20% ; color: #0000ff  ;text-transform: lowercase;  text-decoration-line:line-through;
+}
